@@ -17,9 +17,10 @@
     height: 100%;
 }
 
-my-img{
+.my-img{
     height: 250px;
     padding-top: 5em;
+   
 }
 
 .banner-text{
@@ -61,3 +62,13 @@ my-img{
     padding: 8px;
 
 }
+
+.projects {
+    display: flex;
+}
+
+/* .projects i{
+    color: blue;
+    font-size: 3em;
+    padding: 4px;
+} */
