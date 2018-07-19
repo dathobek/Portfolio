@@ -18,7 +18,20 @@ export default class Home extends Component {
 
                       <hr/>
 
-                      <p>HTML5/CSS3 | Bootstrap | JavaScript | React | Angular6 | JavaSE | MySql | Oracle 11g</p>
+                      <p>HTML5/CSS3 | Bootstrap | JavaScript | React | Angular6 | FireBase | JavaSE |JavaEE | MySql | Oracle 11g</p>
+
+                      <div className="social-link">
+                        {/* Linkedin */}
+                       <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-linkedin-square" aria-hidden="true"/>     
+                       </a>
+
+                       {/* GitHub */}
+                       <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-github-square" aria-hidden="true"/>     
+                       </a>
+
+                      </div>
                     </div>
 
                    
