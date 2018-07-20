@@ -65,10 +65,11 @@
 
 .projects {
     display: flex;
+    justify-content: space-between
 }
 
-/* .projects i{
+ .projects i{
     color: blue;
     font-size: 3em;
     padding: 4px;
-} */
+} 
