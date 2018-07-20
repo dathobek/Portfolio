@@ -22,12 +22,12 @@ export default class Home extends Component {
 
                       <div className="social-link">
                         {/* Linkedin */}
-                       <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                       <a href="https://www.linkedin.com/in/david-athobe-356968143/" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-linkedin-square" aria-hidden="true"/>     
                        </a>
 
                        {/* GitHub */}
-                       <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                       <a href="https://github.com/dathobek?tab=repositories" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-github-square" aria-hidden="true"/>     
                        </a>
 
