@@ -74,6 +74,14 @@
     padding: 4px;
 } 
 
+/* Resume page styling */
+
+.resume-right-col{
+    background: #27221f;
+    color:white;
+    padding: 2em;
+}
+
 /* contact page styling  */
 
 .contact-body {
