@@ -65,9 +65,13 @@ export default class Resume extends Component {
                        <Experience 
                          startJob={2017}
                          jobName='PWAN HOMES'
-                         jobDes=''
+                         jobDes='PWAN HOMES LTD is a property marketing and information company located in Lekki, 
+                         Lagos. We are into making home ownership dream a reality for all.'
                        
                        />
+
+                       <hr style={{borderTop:'3px solid #833fb2',width:'100%'}}/>
+                       <h2>Skills</h2>
                    
                    </Cell>
                </Grid>
