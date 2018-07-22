@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Grid,Cell} from 'react-mdl';
 
-export default class Education extends Component{
+export default class Experience extends Component{
     render(){
         return(
             <Grid>

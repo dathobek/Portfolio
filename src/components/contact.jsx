@@ -7,7 +7,7 @@ export default class Contact extends Component {
         return(
             <div className="contact-body">
                  <Grid className="contact-grid">
-                   <Cell col={4}>
+                   <Cell style={{border:'0.1em solid blue'}} col={4}>
                      <h2>David Athobe</h2>
                      <img 
                        src="./assets/img.jpg"
@@ -25,7 +25,7 @@ export default class Contact extends Component {
                    </Cell> 
                    
 
-                   <Cell col={8}>
+                   <Cell style={{border:'0.1em solid blue'}} col={8}>
                       <h2>Contact Me</h2>
                       <hr/>
                     <div className="contact-list">
@@ -65,8 +65,7 @@ export default class Contact extends Component {
                         <i className="fa fa-skype" aria-hidden="true"/>
                         dathobek
                       </ListItemContent>
-                      </ListItem>
-                      
+                      </ListItem> 
                     </List>
                     </div>
                    </Cell>  
