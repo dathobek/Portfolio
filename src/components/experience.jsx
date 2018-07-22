@@ -6,11 +6,11 @@ export default class Experience extends Component{
         return(
             <Grid>
                 <Cell col={4}>
-                  <p>{this.props.startYear}-{this.props.endYear}</p>
+                  <p>{this.props.startJob}-Present</p>
                 </Cell>
                 <Cell col={8}>
-                   <h4 style={{marginTop:'0px'}}>{this.props.schoolName}</h4>
-                   <p>{this.props.schoolDes}</p>
+                   <h4 style={{marginTop:'0px'}}>{this.props.jobName}</h4>
+                   <p>{this.props.jobDes}</p>
                 </Cell>   
             </Grid>
         )

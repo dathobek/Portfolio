@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Grid,Cell,List,ListItem,ListItemContent} from 'react-mdl';
+import {Image} from 'react-bootstrap';
 
 
 export default class Contact extends Component {
@@ -9,7 +10,7 @@ export default class Contact extends Component {
                  <Grid className="contact-grid">
                    <Cell style={{border:'0.1em solid blue'}} col={4}>
                      <h2>David Athobe</h2>
-                     <img 
+                     <Image 
                        src="./assets/img.jpg"
                        alt="avatar"
                        circle

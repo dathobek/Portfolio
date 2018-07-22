@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Grid,Cell} from 'react-mdl';
+import {Image} from 'react-bootstrap';
 
 
 export default class Home extends Component {
@@ -8,9 +9,10 @@ export default class Home extends Component {
             <div style={{width:'100%',margin:'auto'}}>
                <Grid className="home-grid">
                    <Cell col={12}>
-                     <img 
-                       src="./assets/david1.jpg"
+                     <Image
+                       src="./assets/david1.jpeg"
                        alt="image"
+                       circle
                        className="my-img" 
                     />
                     <div className="banner-text">
