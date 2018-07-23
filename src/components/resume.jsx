@@ -3,6 +3,7 @@ import {Grid,Cell} from 'react-mdl';
 import {Image} from 'react-bootstrap';
 import Education from './education';
 import Experience from './experience';
+import Skills from './skills';
 
 
 export default class Resume extends Component {
@@ -10,7 +11,7 @@ export default class Resume extends Component {
         return(
             <div>
                <Grid>
-                   <Cell style={{border:'0.1em solid black'}} col={4}>
+                   <Cell col={4}>
                     <div style={{textAlign:'center'}}>
                         <Image 
                           src="./assets/davo.jpg"
@@ -72,6 +73,33 @@ export default class Resume extends Component {
 
                        <hr style={{borderTop:'3px solid #833fb2',width:'100%'}}/>
                        <h2>Skills</h2>
+
+                      
+                       <Skills 
+                         skilll='HTML/CSS'
+                         prog={80}
+                       />
+                       <Skills 
+                         skilll='Database'
+                         prog={70}
+                       />
+                       <Skills 
+                         skilll='Javascript'
+                         prog={60}
+                       />
+                       <Skills 
+                         skilll='Angular'
+                         prog={75}
+                       />
+                       <Skills 
+                         skilll='React'
+                         prog={70}
+                       />
+                        <Skills 
+                         skilll='Java'
+                         prog={85}
+                       />
+                       
                    
                    </Cell>
                </Grid>

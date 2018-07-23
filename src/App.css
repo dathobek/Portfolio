@@ -127,3 +127,8 @@
 }
 
 /* contact page styling  */
+
+.aboutMe i{
+    font-size: 66px;
+    padding-right: 5rem;
+}
