@@ -20,7 +20,7 @@ export default class Home extends Component {
 
                       <hr/>
 
-                      <p>HTML5/CSS3 | Bootstrap | JavaScript | React | Angular6 | FireBase | JavaSE | JavaEE | MySql | Oracle 11g</p>
+                      <p>HTML5/CSS3 | Bootstrap | JavaScript | React | Angular6 | FireBase | JavaSE | JavaEE | MySql | Oracle 11g | Express | Nodejs s</p>
 
                       <div className="social-link">
                         {/* Linkedin */}

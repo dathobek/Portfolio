@@ -187,6 +187,47 @@ export default class Projects extends Component {
                 </div>
             )
         }
+        else if(this.state.activeTab === 3){
+            return(
+                <div>
+                    <div className="projects">
+                <Card shadow={5} style={{width: '300px', margin: 'auto'}}>
+                  <CardTitle style={{color: 'blue',fontWeight:'bold', height: '170px', background: 'url(https://cdn-images-1.medium.com/max/2000/1*aBsgPiEeOE5lLoippRm7BA.png) center / cover'}}>Shopping Cart</CardTitle>
+                  <CardText>
+                  Shopping List is a desktop Application built with ElectronJs,ElectronJs is a cross-platform that uses 
+                  javascript,html and css and makes them into desktop application.
+                   </CardText>
+                  <CardActions border>
+                      <a href="https://github.com/dathobek/shoplist" rel="noopener noreferrer" target="_blank">
+                      <i className="fa fa-github-square" aria-hidden="true"/>     
+                      </a>
+                      
+                   </CardActions>
+                   <CardMenu style={{color: '#fff'}}>
+                   </CardMenu>
+               </Card>
+                 {/* Another project*/}
+                <Card shadow={5} style={{width: '300px', margin: 'auto'}}>
+                  <CardTitle style={{color: 'blue',fontWeight:'bold', height: '170px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQJEih0CtxvEUNcUV1aZvptDgWHQknNdDcEfN3LMFfFdGnsYqh) center / cover'}}>SocketIO-Api</CardTitle>
+                  <CardText>
+                  Shopping List is a desktop Application built with ElectronJs,ElectronJs is a cross-platform that uses 
+                  javascript,html and css and makes them into desktop application.
+                   </CardText>
+                  <CardActions border>
+                      <a href="https://github.com/dathobek/SocketApi" rel="noopener noreferrer" target="_blank">
+                      <i className="fa fa-github-square" aria-hidden="true"/>     
+                      </a>
+                      
+                   </CardActions>
+                   <CardMenu style={{color: '#fff'}}>
+                   </CardMenu>
+               </Card>
+
+                    </div>
+                </div>
+            )
+        }
+
     }
 
     render(){
@@ -196,6 +237,7 @@ export default class Projects extends Component {
                     <Tab>JAVA</Tab>
                     <Tab>ANGULARjs</Tab>
                     <Tab>REACT</Tab>
+                    <Tab>NODEJs</Tab>
                 </Tabs>
                 <section className="projects-grid">
                   <Grid className="project-grid">
