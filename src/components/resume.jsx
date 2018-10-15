@@ -77,7 +77,7 @@ export default class Resume extends Component {
                       
                        <Skills 
                          skilll='HTML/CSS'
-                         prog={80}
+                         prog={82}
                        />
                        <Skills 
                          skilll='Database'
@@ -85,7 +85,7 @@ export default class Resume extends Component {
                        />
                        <Skills 
                          skilll='Javascript'
-                         prog={60}
+                         prog={79}
                        />
                        <Skills 
                          skilll='Angular'
@@ -93,11 +93,15 @@ export default class Resume extends Component {
                        />
                        <Skills 
                          skilll='React'
-                         prog={70}
+                         prog={83}
                        />
                         <Skills 
                          skilll='Java'
                          prog={85}
+                       />
+                       <Skills 
+                         skilll="NodeJs"
+                         prog={79}
                        />
                        
                    
