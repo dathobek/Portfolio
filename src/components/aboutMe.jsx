@@ -6,7 +6,7 @@ import {Image} from 'react-bootstrap';
 export default class AbouTMe extends Component {
     render(){
         return(
-            <div>
+            <div style={{background:"black"}}>
                 <Grid className="aboutMe">
                     <Cell style={{border:'0.1em solid black'}} col={4}>
                        <Image 
@@ -20,19 +20,19 @@ export default class AbouTMe extends Component {
                        <div>
                        <List>
                            <ListItem>
-                           <ListItemContent style={{fontSize:'20px',fontFamily:'Anton'}}>
+                           <ListItemContent style={{fontSize:'20px',fontFamily:'Anton',color:'blue'}}>
                             -- Playing Chess! e4 e5,Nf3 d6
                            </ListItemContent>
                            </ListItem>
 
                            <ListItem>
-                           <ListItemContent style={{fontSize:'20px',fontFamily:'Anton'}}>
+                           <ListItemContent style={{fontSize:'20px',fontFamily:'Anton',color:'blue'}}>
                             -- Learning new things( Reading )
                            </ListItemContent>
                            </ListItem>
 
                            <ListItem>
-                           <ListItemContent style={{fontSize:'20px',fontFamily:'Anton'}}>
+                           <ListItemContent style={{fontSize:'20px',fontFamily:'Anton',color:'blue'}}>
                             -- Coding
                            </ListItemContent>
                            </ListItem>
@@ -46,7 +46,7 @@ export default class AbouTMe extends Component {
                       <div>
                       <List>
                            <ListItem>
-                           <ListItemContent style={{fontSize:'30px',fontFamily:'Anton'}}>
+                           <ListItemContent style={{fontSize:'30px',fontFamily:'Anton',color:'blue'}}>
                             <i className="fa fa-birthday-cake" aria-hidden="true"/>
                              23rd May 1990
                            </ListItemContent>
@@ -54,25 +54,25 @@ export default class AbouTMe extends Component {
 
                             <ListItem>
                            <ListItemContent>
-                            <p style={{fontSize:'30px',fontFamily:'Anton'}}>Nationality -----> Nigerian</p>
+                            <p style={{fontSize:'30px',fontFamily:'Anton',color:'blue'}}>Nationality -----> Nigerian</p>
                            </ListItemContent>
                            </ListItem>
 
                             <ListItem>
                            <ListItemContent>
-                            <p style={{fontSize:'30px',fontFamily:'Anton'}}>Marital Status -----> Single</p>
+                            <p style={{fontSize:'30px',fontFamily:'Anton',color:'blue'}}>Marital Status -----> Single</p>
                            </ListItemContent>
                            </ListItem>
 
                             <ListItem>
                            <ListItemContent>
-                            <p style={{fontSize:'30px',fontFamily:'Anton'}}>State Of Origin -----> Delta State</p>
+                            <p style={{fontSize:'30px',fontFamily:'Anton',color:'blue'}}>State Of Origin -----> Delta State</p>
                            </ListItemContent>
                            </ListItem>
 
                             <ListItem>
                            <ListItemContent>
-                            <p style={{fontSize:'30px',fontFamily:'Anton'}}>L.G.A -----> Isoko South(Olomoro)</p>
+                            <p style={{fontSize:'30px',fontFamily:'Anton',color:'blue'}}>L.G.A -----> Isoko South(Olomoro)</p>
                            </ListItemContent>
                            </ListItem>
 
